@@ -1,0 +1,518 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    color: #F1F1F1;
+}
+body{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family:"logo" ;
+    src: url(fonts/Urban\ Graffiti\ PERSONAL\ USE\ ONLY.ttf);}
+
+@font-face {
+    font-family: "Jacatra";
+    src: url(fonts/THE_JACATRA.otf);
+}
+@font-face {
+    font-family:"Alexandria" ;
+    src: url(fonts/Alexandria-VariableFont_wght.ttf);
+}
+
+
+
+
+ 
+h1{
+    margin-right: 170px;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 350%;
+    font-family: "logo";
+   color: #000;
+}
+ 
+h2{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 120px;
+  font-size: 500%;
+  font-family: "logo";
+ color: #000;
+}
+
+.alterar h5 {
+ margin-top: -25px;
+
+}
+
+.alterar1{
+  width: 390px;  
+  height : 590px;
+object-Fit:cover;  
+}
+.alterar1 h5{
+  margin-top: -17px;
+}
+
+h6{
+  font-size: 12px;
+  padding-top: 5px;
+ 
+}
+
+.topo{
+    display: flex;
+    align-items: center;}
+
+.icon{
+    margin-right: 25px;
+    margin-top: 2%;
+    height: 28px;
+    width: 30px;}
+
+    .iconP{
+        margin-right: 25px;
+        margin-top: 2%;
+        height: 30px;
+        width: 32px;}
+
+.links{
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    display: flex;
+    font-family: "Alexandria";
+    font-size: 130%;
+    gap: 3%;}
+
+.links .nav{  
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+    text-decoration: none;
+    transition: ease-in-out 0.1s;}
+
+.links .nav:hover{
+    /* font-weight: 400; */
+    color: rgb(93, 93, 93);
+}
+
+.linha{
+    margin-top: 1%;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    color: black;
+    height: 2px;
+    width: 70%;}
+
+.line{
+    display: flex;
+    justify-content: center;}
+.search img{
+  position: absolute;
+  top: 2px;
+}
+.textbox{
+    color: black;
+    padding-right: 20px;
+    padding-left:40px;
+    margin-right: 110px;
+    margin-top: 3%;
+    width: 650px;
+    height: 35px;
+    border: rgba(0, 0, 0, 0.656) 2px solid;
+    background-color: transparent;}
+
+.search{
+    position: relative;
+    display: inline-block;}
+
+.lupa{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-1%);
+    width: 25px; 
+    height: 25px;}
+ 
+  
+      body {
+        background-color: #f5f8ff;
+      }
+    
+      .button-value {
+       background-color: #000;
+        padding: 1em 2.4em ;
+        border: 2px;
+    margin-left: 10px; 
+       font-family: "Alexandria";
+        color: #ffffff;
+        cursor: pointer;
+        font-weight: 450;
+      }
+     .ver{
+        background-color: black;
+        padding: 10px 34px ;
+      margin-left: 70px;
+      margin-top: 20px;
+      font-family: "Alexandria";
+     border-radius: 9px;
+
+
+     }
+
+      #buttons{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 70px;
+      }
+      .active {
+        background-color: #494949;
+        color: #ffffff;
+      }
+      #products {
+        display: grid;
+        grid-template-columns: auto auto auto; /* Mantém 3 colunas */
+        grid-column-gap: -5em; /*
+         Espaçamento horizontal reduzido */
+        grid-row-gap: 0.5em; /* Espaçamento vertical reduzido */
+        padding-top: 5em; /* Espaçamento superior */
+        padding-left: 10em; /* Espaçamento à esquerda */
+      }
+
+.card {
+    margin: 0;
+    margin-top: 50px; /* Remove margens extras, caso existam */
+  }
+      .card {
+        background-color: #d9d9d937;
+        max-width: 18em;
+        height: 470px;
+     
+        padding: 1px;
+        border-radius: 5px;
+       
+      }
+      .image-container {
+        text-align: center;
+      }
+      img {
+        width: 350px;
+        height:350px;
+        padding-top:4px;
+        
+        
+      }
+      .container {
+        padding-top: 3em;
+        color: #08070c;
+    
+      }
+     
+      h5, h6{
+       
+        font-family: "Alexandria";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+      .image-container img {
+        width: 250px; /* Largura personalizada */
+        height: 240px; /* Altura personalizada */
+        object-fit: cover; /* Ajuste proporcional e centralizado */
+      }
+      .product-button {
+        background-color: #000; /* Cor de fundo */
+        color: #fff; /* Cor do texto */
+        border: none;
+        padding: 10px 15px;
+        font-size: 1em;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 1em;
+      }
+      
+      .product-button:hover {
+        background-color: #4b4b4b; /* Cor ao passar o mouse */
+      }
+      h5{
+        color: #777777; 
+      }
+      h6{
+        color: #000;
+      }
+      .container h5 {
+        font-weight: 500;
+      }
+      .hide {
+      display: none;
+      }
+      @media screen and (max-width: 820px) {
+        img {
+          max-width: 100%;
+          object-fit: contain;
+          height: 30em;
+        }
+        .card {
+          max-width: 500px;
+          margin-top: em;
+          max-height: 50em;
+        }
+        #products {
+          grid-template-columns: auto auto;
+          grid-column-gap: 1em;
+        }
+      }
+
+
+img{
+    width: 200px;
+    height: 120px;
+    margin-top: 20px;
+}
+h4{
+font-family:"Jacatra" ;
+font-size: 20px;
+color: #000000;
+}
+
+p{
+    font-family: "Alexandria";
+}
+
+.dalaje{
+    padding-left: 15px;
+}
+.dalaje img{
+    width: 35px;
+    height: 35px;
+    padding-top: 20px;
+}
+.dalaje h4{
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.dalaje p{
+    width: 340px;
+    color: #777777;
+    padding-top: 20px;
+}
+
+.pagamentos P{
+    color: #777777;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-weight: 620;
+}
+
+.pagamentos img{
+    height: 30px;
+    width: 35px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.pagamentos{
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.linha{
+    height: 1px;
+   background-color:#7d7d7dad;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.linksNav a{
+    display: block;
+    text-decoration: none;
+    color: #777777;
+    font-family:"Alexandria" 
+    ;
+    font-weight: 300;
+    padding: 4px 0px 3px 0px;
+    
+}
+
+.linksNav a:hover{
+    color: #000;
+}
+.linksNav p{
+    text-decoration: none;
+    color: #000000;
+    font-family:"Alexandria" 
+    ;
+    font-weight: 600;
+}
+.linksNav{
+    flex-direction: column;
+    position: absolute;
+    left:930px;
+top:-260px
+}
+.textos{
+    position: relative;
+}
+
+.atendimento{
+    position: relative;
+}
+
+.infor{
+    position: absolute;
+    left:1210px;
+    top:-260px; 
+}
+
+.infor h5{
+   color: #000000;
+    font-family:"Alexandria" 
+    ;
+    font-weight: 600;
+    font-size: 15px; 
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.zap img{
+    width: 30px;
+    height: 30px;
+}
+
+.email img{
+    width: 30px;
+    height: 30px;
+}
+.email{
+    display: flex;
+}
+.zap{
+    display: flex;
+}
+.zap p , .email p {
+    color: #777777;
+    font-family:"Alexandria" 
+    ;
+    font-weight: 350;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+.security{
+    position: relative;
+}
+
+.img{
+    position: absolute;
+    left:1190px;
+    top:-90px;
+    
+}
+.img img{
+    height: 50px;
+    width: 150px;
+}
+
+.nome p{
+    color: #777777;
+    font-family:"Alexandria" 
+    ;
+    font-weight: 350;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+/*FOOTER*/
+.daLaje{
+  width: 100px;
+}
+#gato1{
+  padding-bottom: 0;
+  padding-right: 200px;
+}
+.gato{
+  font-size: 12px;
+  font-weight: 300;
+  color: #777777;
+  padding-bottom: 60px;
+  padding-right: 100px;
+}
+
+.forma{
+  color: #777777;
+}
+.elo{
+  width: 250px;
+  padding-bottom: 50px;
+}
+.google{
+ width: 200px;
+ padding-left: 70px;
+}
+.laado{
+  padding-left: 80px;
+}
+.footer{
+  display: flex;
+  width: 100%;
+}
+.linksNav a{
+  display: block;
+  text-decoration: none;
+  color: #777777;
+  font-family:"Alexandria";
+  font-weight: 300;
+  padding: 4px 0px 3px 0px;
+  padding-left: 170px;
+}
+.linksNav a:hover{
+  color: #000;
+}
+.linksNav{
+  flex-direction: column;
+  left:930px;
+}
+.links{
+  font-size: 18px;
+  font-weight: 400;
+}
+#link{
+  padding-left: 100px;
+}
+.ladoDireito{
+  padding-left: 300px;
+}
+.wpp{
+  display: flex;
+  padding-bottom: 10px;
+}
+.icons{
+  width: 25px;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.whats{
+  padding-top: 5px;
+  color: #777777;
+  font-family:"Alexandria";
+  font-weight: 300;
+   text-decoration: none;
+}
+.whats:hover{
+  color: #000;
+}
+#what1{
+  padding-top: 4px;
+}
+#link1{
+  padding-right: 20px;
+}

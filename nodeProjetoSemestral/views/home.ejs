@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Controle de Vendas</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #333333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .buttons a button {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Controle de Vendas</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Peça</th>
+            <th>Preço</th>
+            <th>Data da Venda</th>
+            <th>Excluir</th>
+        </tr>
+        <% data.forEach(element => { %>
+        <tr>
+            <td><%= element.id %></td>
+            <td><%= element.peca %></td>
+            <td><%= element.preco %></td>
+            <td><%= element.data_Venda %></td>
+            <td>
+                <form action="/delete" method="post">
+                    <input type="hidden" name="id" value="<%= element.id %>"/>
+                    <button type="submit">Deletar</button>
+                </form>
+            </td>
+        </tr>
+        <% }) %>
+    </table>
+
+    <div class="buttons">
+        <a href="/adicionar">
+            <button>Adicionar</button>
+        </a>
+        <a href="/atualizar">
+            <button>Atualizar</button>
+        </a>
+        <a href="/json">
+            <button>JSON</button>
+        </a>
+    </div>
+</body>
+</html>
+

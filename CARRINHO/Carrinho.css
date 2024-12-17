@@ -1,0 +1,299 @@
+@font-face {
+    font-family: "logo";
+    src: url(/fonts/Urban\ Graffiti\ PERSONAL\ USE\ ONLY.ttf);
+}
+@font-face {
+    font-family: "alexandria";
+    src: url(/fonts/Alexandria-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "jacatra";
+    src: url(/fonts/THE_JACATRA.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "alexandria";}
+
+body{
+    max-width: 100%;
+    background-color: #F1F1F1;
+    overflow-x: hidden;
+}
+
+header h1{
+    margin-right: 170px;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 18%;
+    font-size: 350%;
+    font-family: "logo";
+    font-weight: 500;}
+
+header{
+    height: 90px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;}
+
+section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;}
+
+section .box1{
+    margin-left: 230px;}
+
+section .box2{
+    position: relative;
+    margin-right: 300px;
+    margin-left: 200px;}
+
+.box2 h2{
+    font-family: "alexandria";
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;}
+
+
+
+section input{
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: solid black 1px;
+    background-color: transparent;
+    color: black;
+    height: 35px;
+    width: 350px;
+    font-size: 15px;
+    margin-bottom: 25px;}
+
+input::placeholder{
+    color: black;
+    font-weight: 300;}
+
+section button{
+    font-size: 15px;
+    background-color: transparent;
+    position: absolute;
+    right: 55px;
+    top: 49px;}
+
+section .total{
+    padding: 0px 20px 0px 20px;
+    align-items: center;
+    height: 60px;
+    background-color: #EAEAEA;
+    gap: 160px;
+    display: flex;
+    width: 360px;}
+
+section .finish{
+    left: 0px;
+    top: 200px;
+    background-color: black;
+    color: white;
+    font-size: 18px;    
+    width: 400px;
+    height: 40px; 
+    transition: ease-in-out 0.3s;
+    border-radius: 7px;}
+
+section .finish:hover {
+    background-color: #333;}
+
+.box1 .box1-tudo{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;}
+
+.box1 img{
+    height: 150px;
+    width: 130px;}
+
+.box1 .box1-img{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    height: 140px;
+    width: 150px;
+    background-color: #EAEAEA;}
+
+ h3{
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #424242;}
+
+.box1 .box1-texts{
+    display: flex;
+    flex-direction: column;}
+
+.box1 .box1-texts img{
+    height: 25px;
+    width: 25px;
+    transition: ease-in-out 0.5s;}
+
+.box1 .box1-texts img:hover{
+    color: #333;
+    scale: 0.9;
+    }
+    
+
+.box1 .box1-texts h4{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 8px;}
+
+.box1 .box1-texts p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;}
+
+.box1 .box1-texts{
+    margin-left: 10px;}
+
+.box1 .box1-texts .box1-linha{
+    width: 300px;
+    height: 0.5px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+/* Estilos para a caixa de alerta personalizada */
+.container-alerta {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo transparente escuro */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Certifique-se de que a caixa apareça acima de tudo */
+}
+
+.box-alerta {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.box-alerta p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.box-alerta .Obrigado {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.box-alerta button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box-alerta button:hover {
+    background-color: #333;
+}
+
+/*FOOTER*/
+.daLaje{
+    width: 100px;
+}
+#gato1{
+    padding-bottom: 0;
+    padding-right: 200px;
+}
+.gato{
+    font-size: 12px;
+    font-weight: 300;
+    color: #777777;
+    padding-bottom: 60px;
+    padding-right: 100px;
+}
+
+.forma{
+    color: #777777;
+}
+.elo{
+    width: 250px;
+    padding-bottom: 50px;
+}
+.google{
+   width: 200px;
+   padding-left: 70px;
+}
+.laado{
+    padding-left: 80px;
+}
+.footer{
+    margin-top: 380px;
+    display: flex;
+    width: 100%;
+}
+.linksNav a{
+    display: block;
+    text-decoration: none;
+    color: #777777;
+    font-family:"Alexandria";
+    font-weight: 300;
+    padding: 4px 0px 3px 0px;
+    padding-left: 170px;
+}
+.linksNav a:hover{
+    color: #000;
+}
+.linksNav{
+    flex-direction: column;
+    left:930px;
+}
+.links{
+    font-size: 18px;
+    font-weight: 400;
+}
+#link{
+    padding-left: 100px;
+}
+.ladoDireito{
+    padding-left: 300px;
+}
+.wpp{
+    display: flex;
+    padding-bottom: 10px;
+}
+.icons{
+    width: 25px;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.whats{
+    padding-top: 5px;
+    color: #777777;
+    font-family:"Alexandria";
+    font-weight: 300;
+     text-decoration: none;
+}
+.whats:hover{
+    color: #000;
+}
+#what1{
+    padding-top: 4px;
+}
+#link1{
+    padding-right: 20px;
+}
+
+

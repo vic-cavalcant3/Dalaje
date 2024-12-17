@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Controle de Vendas - Atualizar</title>
+    <style>
+        body {
+            background-color: #ffffff; 
+            color: #333333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            font-weight: bold;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        input, button {
+            padding: 10px;
+            border: 1px solid #333;
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h2>Atualizar Venda</h2>
+    <form action="/update" method="post">
+        <input type="text" placeholder="ID" name="id" required/>
+        <input type="text" placeholder="Peça" name="peca" required/>
+        <input type="text" placeholder="Preço" name="preco" required/>
+        <input type="date" placeholder="Data da Venda" name="data_Venda" required/>
+        <button type="submit">Atualizar</button>
+    </form>
+</body>
+</html>
+

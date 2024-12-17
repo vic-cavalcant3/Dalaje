@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dalaje</title>
+    <link rel="stylesheet" href="/CARRINHO/Carrinho.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Dalaje</h1>
+    </header>
+
+<section>
+    <div class="box1">
+
+        <h3>Sacola de compras</h3>
+
+        <div class="box1-tudo">
+            <div class="box1-img">
+                <img src="/TELA INCIAL/img/Carrossel/camisa good times 3.png" alt="">
+            </div>
+            <div class="box1-texts">
+                <h4>Camiseta Preta "Good Times"</h4>
+                <p>R$ 10,00</p>
+                 <div class="box1-linha"></div>
+
+                <div class="box1-icons">
+                    <img src="/CARRINHO/ImgCarrinho/Vector.png" alt="Apagar produto" onclick="apagarProduto()">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="box2">
+            <h2>Calcular frete</h2>
+
+            <div class="Calcular">
+            <input type="text" name="" id="frete" placeholder="Digite o CEP"> 
+            <button onclick="CalcularFrete ()"> Calcular </button></div>
+
+            <div class="total">
+                <p class="sub">Sub-total</p>
+                <p class="sub">R$10,00</p>
+            </div>
+
+            <div class="container-alerta" id="container-alert">
+                <div class="box-alerta">
+                    <p class="Obrigado">Obrigado pela sua compra! Seu pedido foi realizado com sucesso.</p>
+                    <p>O valor total da sua compra é <strong>R$ 10,00</strong>.</p>
+                    <p>Você receberá um e-mail com os detalhes do pedido e o código de rastreamento.</p>
+                    <button onclick="closeAlert()">Fechar</button>
+                </div>
+                
+            </div>
+
+            <button class="finish" onclick="Finish()">Finalizar Compra</button>
+        
+    </div>
+</section>
+
+<footer>
+    <div class="footer">
+    <div class="ladoEsquerdo">
+        <div class="laado">
+            <img src="img/Da Laje.png" alt="" class="daLaje">
+            <p class="gato" id="gato1">"Como um gato, cada peça aqui tem</p>
+            <p class="gato">seu mistério e encanto próprio."</p>
+            <p class="forma">Formas de pagamento</p>
+            <img src="img/elo.png" alt="" class="elo">
+        </div>
+        <div>
+            <img src="img/google.png" alt="" class="google">
+        </div>
+       
+    </div>
+
+    <div class="meio">
+        <div class="linksNav">
+          <p class="links" id="link">LINKS</p>
+          <a href="/TELA INCIAL/TelaInicial.html"> HOME</a>
+          <a href="produtos.html"> PRODUTOS</a>
+          <a href="/LANÇAMENTOS/lancamentos.html">LANÇAMENTOS</a>
+          <a href="/PAGINA EVENTOS/evento.html">EVENTOS</a>
+          <a href="/SOBRENÓS/sobrenos.html">SOBRE NÓS</a>
+        </div>
+    </div>
+
+
+    
+    <div class="ladoDireito">
+        <p class="links" id="link1">ATENDIMENTO</p>
+        <div class="wpp">
+            <img src="/COMPRAS/img/wpp.png" alt="" class="icons">
+            <p class="whats" id="what1">11970804339</p>
+        </div>
+        <div class="wpp">
+            <img src="/COMPRAS/img/gmail.png" alt="" class="icons">
+            <p class="whats">Dlaje@gmail.com</p>
+        </div>
+        <div class="wpp">
+            <img src="/COMPRAS/insta.png" alt="" class="icons">
+            <a class="whats" href="https://www.instagram.com/dalaje._/" target="_blank" rel="noopener noreferrer">dalaje._</a>
+        </div>
+    </div>
+</div>
+</footer>
+<script src="/CARRINHO/js/Carrinho9.js"></script>
+</body>
+</html>

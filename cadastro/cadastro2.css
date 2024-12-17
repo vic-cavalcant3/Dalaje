@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "logo";
+    src: url(/fonts/Urban\ Graffiti\ PERSONAL\ USE\ ONLY.ttf);
+}
+@font-face {
+    font-family: "alexandria";
+    src: url(/fonts/Alexandria-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "jacatra";
+    src: url(/fonts/THE_JACATRA.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "alexandria";}
+
+
+    h1{
+        margin-top: 2%;
+        font-size: 400%;
+        font-family: "logo";
+    }
+    
+    .topo{
+        justify-content: center;
+        display: flex;
+        align-items: center;}
+.icon{
+    margin-right: 25px;
+    margin-top: 2%;
+    height: 28px;
+    width: 30px;}
+
+    .iconP{
+        margin-right: 25px;
+        margin-top: 2%;
+        height: 30px;
+        width: 32px;}
+
+.links{
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    display: flex;
+    font-family: "alexandria";
+    font-size: 130%;
+    gap: 3%;}
+
+    .links .nav{  
+        font-size: 18px;
+        font-weight: 300;
+        color: black;
+        text-decoration: none;
+        transition: ease-in-out 0.1s;}
+    
+    .links .nav:hover{
+        /* font-weight: 400; */
+        color: rgb(93, 93, 93);
+    }
+
+.linha{
+    margin-top: 1%;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    color: black;
+    height: 2px;
+    width: 70%;}
+
+.line{
+    display: flex;
+    justify-content: center;}
+
+
+h2 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    font-size: 300%;
+    text-align: center;
+    font-weight: 500;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: medium;
+}
+
+label {
+    width: 80%;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 30%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+input[type="email"], input[type="password"] {
+    width: 50%; 
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #000; 
+    border-radius: 4px;
+    background-color: transparent;
+    outline: none;;
+    box-sizing: border-box;
+}
+input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #0f0f0f; 
+    box-shadow: 0 0 4px #0f0f0f;
+}
+
+
+input[type="nome"], input[type="password"] {
+    width: 50%; 
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #000; 
+    border-radius: 4px;
+    background-color: transparent;
+    outline: none;;
+    box-sizing: border-box;
+}
+
+input[type="nome"]:focus, input[type="password"]:focus {
+    border-color: #0f0f0f; 
+    box-shadow: 0 0 4px #0f0f0f;
+}
+
+input[type="cpf"], input[type="password"] {
+    width: 50%; 
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #000; 
+    border-radius: 4px;
+    background-color: transparent;
+    outline: none;;
+    box-sizing: border-box;
+}
+
+input[type="cpf"]:focus, input[type="password"]:focus {
+    border-color: #0f0f0f; 
+    box-shadow: 0 0 4px #0f0f0f;
+}
+input[type="telefone"], input[type="password"] {
+    width: 50%; 
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #000; 
+    border-radius: 4px;
+    background-color: transparent;
+    outline: none;;
+    box-sizing: border-box;
+}
+
+input[type="telefone"]:focus, input[type="password"]:focus {
+    border-color: #0f0f0f; 
+    box-shadow: 0 0 4px #0f0f0f;
+}
+
+
+
+button {
+    width: 20%; 
+    padding: 15px; /* Adiciona espaçamento interno */
+    margin-top: 2%;
+    background-color: #000;
+    color: #fff; 
+    font-size: 20px; /* Tamanho do texto */
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+
+button:hover {
+    background-color: #333;
+}
+.forgot-password, .create-account {
+    font-size: 1vw;
+    margin-top: 2%;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 10px;
+    font-family: "alexandria";
+}
+
+.forgot-password:hover, .create-account:hover {
+    text-decoration: underline;
+}

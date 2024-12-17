@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaLaje - Login</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+
+    <header>
+        <div class="topo">
+            <h1>DALAJE</h1>
+        </div>
+
+        <nav class="links">
+            <a href="/TELA INCIAL/TelaInicial.html" class="nav">HOME</a>
+            <a href="/Produtos/Produtos.html" class="nav">PRODUTOS</a>
+            <a href="/LANÇAMENTOS/lancamentos.html" class="nav">LANÇAMENTOS</a>
+            <a href="/PAGINA EVENTOS/evento.html" class="nav">EVENTOS</a>
+            <a href="/SOBRENÓS/sobrenos.html" class="nav">SOBRE NÓS</a>
+            <a href="/cadastro/cadastro.html" class="nav">ENTRAR</a>
+        </nav>
+    </header>
+
+  
+    <main>
+        <div class="login-container">
+            <h2>Entre na sua Conta</h2>
+            <form id="login-form">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="E-mail" required>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Senha" required>
+
+                <button type="submit">Entrar</button>
+                <p class="error-message" id="error-message"></p>
+
+                <a href="#" class="forgot-password">Esqueci a senha</a>
+                <p>Não tem uma Conta? <a href="cadastro2.html" class="create-account">Criar Conta</a></p>
+            </form>
+        </div>
+    </main>
+
+    <div id="forgot-password-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3>Recuperar Senha</h3>
+            <p>Digite seu e-mail para receber o link de recuperação:</p>
+            <input type="email" id="reset-email" placeholder="Digite seu e-mail">
+            <button id="submit-btn" type="submit">Enviar</button>
+        </div>
+    </div>
+
+
+    <script src="cadastro.js"></script>
+</body>
+</html>

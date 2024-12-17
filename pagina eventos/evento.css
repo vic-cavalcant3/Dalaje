@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "logo";
+    src: url(/fonts/Urban\ Graffiti\ PERSONAL\ USE\ ONLY.ttf);
+}
+@font-face {
+    font-family: "alexandria";
+    src: url(/fonts/Alexandria-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "jacatra";
+    src: url(/fonts/THE_JACATRA.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "alexandria";
+    font-weight: 200;
+}
+
+
+body {
+    background-color: #181717;
+    overflow-x: hidden;
+    width: 100%;
+}
+/*.texto1{
+color:white;
+font-family: "alexandria";
+width: 1200px;
+font-size: 40px;
+}*/
+
+.manuela{
+    width: 1800px;
+    height: 500px;
+}
+
+
+
+.texto2{
+    color: white;
+    margin-top: 20px;
+ 
+}
+.texto3{
+    color: white;
+}
+.titulo{
+    color:white;
+margin-top: 35px;
+    
+}
+.evento{
+    width:100vw;
+    height: 10px;
+    padding-right: 40px;
+}
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 650px; 
+    text-align: center; 
+    text-align: justify;
+
+}
+
+.banner{
+    height: 800px;
+    width: 1500px;
+    padding-right: 35px;
+}
+.evento{
+    height: 700px;
+
+    
+}
+.containerr{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 550px; 
+    text-align: center; 
+    flex-direction: column;
+    text-align: justify;
+
+}
+.titulo{
+    padding-right: 580px;
+   padding-top: 200px;
+}
+.texto2{
+    width: 1000px;
+    font-size: 35px;
+    padding-top: 30px;
+}
+.texto3{
+    font-weight: 500;
+    padding-top: 30px;
+    width: 980px;
+    font-size: 35px;
+    padding-bottom: 100px;
+    margin-top: 20px;
+    margin-right: 28px;
+
+}

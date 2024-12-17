@@ -1,0 +1,308 @@
+/*-----------------------------HEADER----------------------------------*/
+@font-face {
+    font-family: "logo";
+    src: url(/fonts/Urban\ Graffiti\ PERSONAL\ USE\ ONLY.ttf);
+}
+@font-face {
+    font-family: "alexandria";
+    src: url(/fonts/Alexandria-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "jacatra";
+    src: url(/fonts/THE_JACATRA.otf);
+}
+@font-face {
+    font-family:"Urban" ;
+    src: url(fonts/Urban\ Graffiti\ PERSONAL\ USE\ ONLY.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "alexandria";
+    background-color: #F1F1F1;
+}
+
+h1{
+    margin-top: 2%;
+    font-size: 400%;
+    font-family: "logo";
+}
+
+.topo{
+    justify-content: center;
+    display: flex;
+    align-items: center;}
+
+.icon{
+    margin-right: 25px;
+    margin-top: 2%;
+    height: 28px;
+    width: 30px;}
+.iconP{
+    margin-right: 25px;
+    margin-top: 2%;
+    height: 30px;
+    width: 32px;
+}
+.links{
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    display: flex;
+    font-family: "alexandria";
+    font-size: 130%;
+    gap: 3%;
+    margin-bottom: 30px;
+}
+.links .nav{  
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+    text-decoration: none;
+    transition: ease-in-out 0.1s;
+}
+.links .nav:hover{
+    /* font-weight: 400; */
+    color: rgb(93, 93, 93);
+}
+.linha{
+    margin-top: 1%;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    color: black;
+    height: 2px;
+    width: 70%;
+}
+.line{
+    display: flex;
+    justify-content: center;
+}
+.lancamentos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgLanca{
+    padding: 60px 0;
+    width: 400px;
+    height: auto;
+}
+/*------------------------CARROSSEL-------------------------------*/
+body {
+    font-family: Arial, sans-serif;
+}
+
+.carrossel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    position: relative; /* Para posicionar as setas dentro do carrossel */
+}
+
+.imagem-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.imagem {
+    width: 300px;
+    height: 400px;
+    margin: 0 15px;
+    transition: transform 0.3s ease;
+    opacity: 0.8;
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.anterior {
+    transform: scale(0.8); /* Imagem anterior um pouco menor */
+    filter: brightness(0.5)
+}
+
+.atual {
+    transform: scale(1.3); /* Imagem atual maior */
+    opacity: 1;
+}
+
+.proxima {
+    transform: scale(0.8); /* Imagem próxima um pouco menor */
+    filter: brightness(0.5)
+}
+.seta {
+    position: absolute;
+    top: 50%;
+    color: #000000;
+    font-size: 30px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.seta-esquerda {
+    left: 10px;
+}
+
+.seta-direita {
+    right: 10px;
+}
+
+.seta:hover {
+    color: #636363fe;
+}
+/*----------------------------------------------------------------*/
+.imgPeca{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.fileira1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.peca1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.nomePeca{
+    font-family: "alexandria";
+    color: #777777;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.nomePeca2{
+    font-family: "alexandria";
+    color: #777777;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.precoPeca{
+    font-family: "alexandria";
+    font-weight: 600;
+}
+.navComprar{
+    background-color: #000000;
+    text-decoration: none;
+    color: white;
+    font-family: "alexandria";
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 20px, 20px;
+    height: 28px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.navComprar:hover {
+    background-color: #333;
+}
+.frete{
+    width: 1280px;
+    padding: 180px 100px 150px 100px;
+}
+/*----------------------------------------FOOTER----------------------------------------------*/
+.daLaje{
+    width: 100px;
+}
+#gato1{
+    padding-bottom: 0;
+    padding-right: 200px;
+}
+.gato{
+    font-size: 12px;
+    font-weight: 300;
+    color: #777777;
+    padding-bottom: 60px;
+    padding-right: 100px;
+}
+
+.forma{
+    color: #777777;
+}
+.elo{
+    width: 250px;
+    padding-bottom: 50px;
+}
+.google{
+   width: 200px;
+   padding-left: 70px;
+}
+.laado{
+    padding-left: 80px;
+}
+.footer{
+    display: flex;
+    width: 100%;
+}
+.linksNav a{
+    display: block;
+    text-decoration: none;
+    color: #777777;
+    font-family:"Alexandria";
+    font-weight: 300;
+    padding: 4px 0px 3px 0px;
+    padding-left: 170px;
+}
+.linksNav a:hover{
+    color: #000;
+}
+.linksNav{
+    flex-direction: column;
+    left:930px;
+}
+.links{
+    font-size: 18px;
+    font-weight: 400;
+}
+#link{
+    padding-left: 100px;
+}
+.ladoDireito{
+    padding-left: 300px;
+}
+.wpp{
+    display: flex;
+    padding-bottom: 10px;
+}
+.icons{
+    width: 25px;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.whats{
+    padding-top: 5px;
+    color: #777777;
+    font-family:"Alexandria";
+    font-weight: 300;
+     text-decoration: none;
+}
+.whats:hover{
+    color: #000;
+}
+#what1{
+    padding-top: 4px;
+}
+#link1{
+    padding-right: 20px;
+}
